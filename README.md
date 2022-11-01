@@ -8,12 +8,11 @@ Features
 * Include basic [Sphinx](https://www.sphinx-doc.org/en/master/) docs structure
 * Packaged with [setuptools](https://setuptools.pypa.io/en/latest/setuptools.html)
 
-
 ## How to use? 
 
 Clone this project and use it as the basis for your CLI. 
 
-EG you can have a bash scommand that helps with that:s
+If you develop CLIs frequently, you can have a bash command that helps with cloning:
 
 ```bash
 new_pycli () { cp -R /path/to/python-cli-structure newcliapp; rm -R newcliapp/cliapp.egg-info; rm -rf newcliapp/.git; cd newcliapp; }
